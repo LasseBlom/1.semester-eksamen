@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Radar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+      <!-- Header -->
+  <header class="subpage-header">
+    <nav class="header">
+        <div class="logo">
+         <a href="index.html">  <img src="img/Logo.png" alt="Radar Logo"></a>  
+        </div>
+      
+        <div class="subpage-burger">
+        <button id="hamburger_subsite" class="hamburger" aria-label="Open menu">
+        ☰
+      </button>
+        </div>
+      
+      <ul id="subpage-nav-menu" class="nav-menu">
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#about">Om Radar</a></li>
+        <li><a href="#share-experience">Del Din Oplevelse</a></li>
+        <li><a href="#contact">Kontakt & Info</a></li>
+        <li><a href="#support">Støt Radar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="del-din-oplevelse">
+
+    <section id="om-radar" class="om-radar">
+        <h2>Del din oplevelse </h2>
+            <ul class="subpage-menu">
+                <li><a href="#">historie</a></li>
+                <li><a href="#">Værdier </a></li>
+                <li><a href="#">Partnere </a></li>
+            </ul>
+
+
+            <article class="brødtekst-dil-din-oplevelse">
+                <h2>Vær med til at bane vejen for Radar</h2>
+                <p>Vi vil gerne høre fra dig! Har du haft en fantastisk aften på Radar? Del dine billeder, minder og tanker med os, så vi kan fejre fællesskabet og de unikke øjeblikke, der gør Radar til noget særligt.</p>
+                <br>
+                <p>Upload dine oplevelser her og bliv en del af historien – vi glæder os til at se dit bidrag!</p>
+     </section>
+
+        <div class="upload-container">
+          <h2>Upload</h2>
+          <div class="drop-area" id="drop-area">
+            <div class="upload-icon">
+              <span>&#8593;</span>
+            </div>
+            <p>Drag & drop files or <span class="browse" id="browse">Browse</span></p>
+            <p class="supported-formats">Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT</p>
+            <input type="file" id="file-input" multiple style="display: none;">
+          </div>
+          
+          <!-- Uploading progress -->
+          <div class="uploading-section">
+            <strong>Uploading</strong>
+            <div class="progress-bar-container">
+              <input type="text" id="file-name" value="your-file-here.PDF" readonly>
+              <div class="progress-bar">
+                <div class="progress" style="width: 50%;"></div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Uploaded files -->
+          <div class="uploaded-section">
+            <strong>Uploaded</strong>
+            <div class="uploaded-files">
+              <div class="uploaded-file">
+                <input type="text" value="document-name.PDF" readonly>
+                <button class="delete-btn">&times;</button>
+              </div>
+              <div class="uploaded-file">
+                <input type="text" value="image-name-goes-here.png" readonly>
+                <button class="delete-btn">&times;</button>
+              </div>
+              <div class="uploaded-file">
+                <input type="text" value="document-name.PDF" readonly>
+                <button class="delete-btn">&times;</button>
+              </div>
+              <div class="uploaded-file">
+                <input type="text" value="image-name-goes-here.png" readonly>
+                <button class="delete-btn">&times;</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Submit Button -->
+          <button class="upload-btn">UPLOAD FILES</button>
+        </div>
+  </main>
+        <script src="script.js"></script>
+  
+    </body>
+
+
+    
+  </main>
